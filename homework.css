@@ -1,0 +1,10 @@
+body{
+    background-image: url(./pexels-felix-mittermeier-461941.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+}
+div{
+    background-image: radial-gradient(black,red,yellow,blue,white,orange,brown,purple);
+    width: 330px;
+    height: 330px
+}

@@ -1,0 +1,41 @@
+header{
+    border: 2px solid black;
+    height: 50px;
+    text-align: center;
+    padding-top: 25px;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+#header{
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+}
+main{
+  border: 2px solid red; 
+  height: 425px;
+  display: flex;
+}
+#love{
+  border: 2px solid purple;
+  width: 30%;
+  padding-top: 200px; 
+}
+#hate{
+    border: 2px solid green;
+    width: 65%;
+    padding-top: 200px;
+}
+.p{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+footer{
+    border: 2px solid blue;
+    height: 50px;
+    padding-top: 25px;
+}

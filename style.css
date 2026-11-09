@@ -1,0 +1,13 @@
+h1{
+    color:yellow ;
+    font-family:forte ;
+    background-color:red ;
+}
+body{
+    background-color: purple;
+}
+div{
+    background-color: white;
+    width: 200px;
+    height: 200px;
+}

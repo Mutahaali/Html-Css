@@ -1,0 +1,26 @@
+#flex{
+    width: 100%;
+    height: 200px;
+    background-color: gold;
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap;
+    justify-content: flex-start; 
+    align-content: space-between;
+}
+.wow{
+    background-color: blanchedalmond;
+    margin: 5px;
+    width: 90px;
+    height: 90px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+#div{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    justify-content: center;
+    display: flex;
+}

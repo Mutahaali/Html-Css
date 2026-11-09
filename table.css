@@ -1,0 +1,10 @@
+table{
+    border-collapse: collapse;
+}
+th{
+    color: darkblue;
+    text-transform: uppercase;
+}
+tr{
+    background-color: grey;
+}

@@ -1,0 +1,72 @@
+body{
+    background-image: url(./pexels-felix-mittermeier-461941.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#sign{
+    width: 800px;
+    height: 400px;
+    margin-top: 100px;
+    margin-left: 230px;
+    background-color: rgba(71, 71, 194, 0.587);
+    border-radius: 20px;
+    display: flex; 
+}
+#left{
+    width: 55%;
+    margin-left: 25px;
+    margin-top: 40px;
+}
+#right{
+        width: 35%;
+        margin-top: 130px;
+}
+#side{
+    font-weight: 600;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+form{
+    width: 30px;
+}
+.log{
+   margin-top: 10px; 
+}
+input{
+    width: 350px;
+    padding: 7px;
+    border-radius: 50px;
+    border: 1px solid white;
+    padding-left: 20px;
+}
+button{
+    background-color: black;
+    width: 100%;
+    color: white;
+    padding: 10px;
+    border-radius: 50px;
+}
+#Login{
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+}
+button:hover{
+    cursor: pointer;
+}
+#or{
+    text-align: center;
+}
+.engine{
+    text-decoration: none;
+    padding: 10px;
+    border: 2px solid black;
+    display: block;
+    border-radius: 50px;
+    text-align: center;
+    margin-top: 10px;
+}
+.engine:hover{
+    background-color: white;
+    transition: 1s;
+}

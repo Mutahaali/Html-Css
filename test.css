@@ -1,0 +1,12 @@
+h1{
+    text-decoration: underline;
+    font-size: 30px;
+    text-align: center;
+}
+body{
+    background-color: yellowgreen; 
+}
+p{
+    font-size: 20px;
+    text-align: center;
+}

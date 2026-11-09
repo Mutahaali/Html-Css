@@ -1,0 +1,10 @@
+div{
+    width: 400px;
+    height: 400px;
+    background-image: linear-gradient(red,yellow,green,blue,brown,pink,purple);
+}
+body{
+ background-image: url('./data-management-perfomance-graph-concept.jpg');
+background-repeat: no-repeat;
+ background-size: cover;
+}

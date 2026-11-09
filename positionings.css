@@ -1,0 +1,30 @@
+body {
+    background-color: brown;
+    height: 500vh;
+}
+
+
+.position-container {
+    border: solid;
+    height: 300px;
+    /* position: relative; */
+}
+/* absolute */
+/* button {
+    position: absolute;
+    bottom: 5px;
+    right: 0;
+} */
+
+/* relative */
+/* button {
+    position: absolute;
+    top: 0;
+    right: 0;
+} */
+
+
+button {
+    position: fixed;
+    top: 0;
+}

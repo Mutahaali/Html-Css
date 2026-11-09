@@ -1,0 +1,69 @@
+body {
+    /* background-color: black; */
+    background-image: url("./data-management-perfomance-graph-concept.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+
+.overlay {
+    background-color: black;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0.2;
+}
+
+/* css grouping selection method approach */
+h1, button {
+    position: relative;
+    z-index: 1111111;
+    cursor: pointer;
+}
+
+.heading {
+    color: white;
+}
+
+/* .art {
+    color: red;
+} 
+
+
+.block {
+    color: red;
+}
+.para {
+    color: red;
+} */
+
+/* grouping selection approach */
+.block, .para, .art {
+    color: red;
+    position: relative;
+    z-index: 1111;
+}
+
+/* psuedo classes
+hover and active */
+h1:hover {
+   color: yellow;
+   font-size: 50px;
+} 
+
+
+button:hover {
+    background-color: yellow;
+    color: black;
+}
+
+
+button:active {
+    background-color: red;
+    color: white;
+    height: 150px;
+}
